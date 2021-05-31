@@ -1,0 +1,70 @@
+body {
+    background: url('./images/burrows.jpeg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#h-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CD5C5C;    
+    position: fixed;
+    margin: 0;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    width: 100%;
+    height: 150px;
+}
+
+h1 {
+    font-size: 90px;
+    text-shadow: 5px 5px white;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#b-container {
+    display: grid;
+    padding-top: 150px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.frame {
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 10px 10px 5px #000;   
+}
+
+.in-frame {
+    width: 620px;
+    height: 459px;
+}
+
+.flavor {
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+}
+.f-container {
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fodder {
+    text-align: left;
+    font-size: 25px;
+}
+
+.cannon {
+    font-size: 25px;
+}
+
